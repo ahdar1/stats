@@ -141,7 +141,6 @@ Contribution: Information-based theory technique in avoiding *spurious moderatio
 
 spurious moderation: e.g, If X --> Y is nonlinear in a population, estimating parameters of the MMR above will produce a significant $\beta_3$.
 
-   
 ```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="70%", out.width="70%"}
 knitr::include_graphics("img/jbr.png")
 ```
@@ -194,6 +193,10 @@ xz <- x * z  # create an interaction term
 B. Heteroskedasticity problem in multiple linear regression
 
   Homoskedasticity assumption in linear regression = constant variance at every value of $x$
+  
+  ```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="60%", out.width="60%"}
+knitr::include_graphics("img/heteros.png")
+```
   
   + HeteroskedasticityV3 
   
