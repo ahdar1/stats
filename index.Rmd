@@ -73,6 +73,10 @@ available at: https://ahdar1.github.io/stats_slides_undip/#1
 ---
 ## What is contribution?
 
+* **E**xtend theories
+* **C**larify theories
+* **A**pply theories into a new setting
+
 
 ```{r, out.width = "200px", echo=FALSE, fig.align='right', include=TRUE}
 knitr::include_graphics("https://absolutelymaybe.plos.org/wp-content/uploads/sites/8/2020/05/Eureka.jpg")
