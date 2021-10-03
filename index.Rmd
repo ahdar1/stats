@@ -209,7 +209,7 @@ C. Endogeneity problem in multiple linear regression
 
   Endogeneity = X is correlated with error term.
   
-  One of the common cause = important variable is missing.
+  Common cause = important variable is missing.
   
   ```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="65%", out.width="65%"}
 knitr::include_graphics("img/endo_diagram.png")
