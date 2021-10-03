@@ -34,7 +34,7 @@ knitr::opts_chunk$set(dpi = 300,            # ensures high resolution images
 ```
 
 class: title-slide, center, middle, inverse
-background-image: url(img/sky.jpg)
+background-image: url(img/businessman.jpg)
 background-position: bottom
 background-size: cover
 
@@ -42,15 +42,14 @@ background-size: cover
 
 Ahmad Daryanto
 
-Lancaster University, 11 October 2021
+Lancaster University
 
-???
-This slide uses:
-- a custom `title-slide` class that removes the slide number from the title slide
-- a background image
-  - background-image: url(img/businessman.jpg)
-  - background-position: bottom
-  - background-size: cover
+Presented at the Department of Statistics
+
+University of Diponegoro
+
+11 October 2021
+
 
 ---
 class: reverse
@@ -69,6 +68,8 @@ class: reverse
 * Review: narrative, meta-analysis, bibliometric
 
 * Empirical: survey, experiment, econometric modelling
+
+* Practical contribution: software, macros
   
   
 
@@ -97,6 +98,11 @@ knitr::include_graphics("https://absolutelymaybe.plos.org/wp-content/uploads/sit
 source: Kumar(2016)
 
 ---
+## Slides 
+
+available at: https://ahdar1.github.io/stats_slides_undip/#1
+
+---
 class: reverse
 
 ## Why contributions?
@@ -122,18 +128,23 @@ Attempt to:
  * Follow the conversation
  * Try to publish
  * Leave your footprint: move to another domain after publising 2-3 articles
-
+ * Thinking of comeback
 ---
 class: reverse
 ## Personal experiences
 
 * Moderated regression analysis
 
-* Heteroskedasticity
+  Contribution: information-based theory technique in avoiding spurious moderation
+
+* Heteroskedasticity: practical contribution
 
   + HeteroskedasticityV3 
-
-* Endogeneity
+  
+  + 22k+ views https://www.youtube.com/watch?v=dJFAkPLrbx4&t=28s
+  + 6k+ views https://www.youtube.com/watch?v=uFI3QwBqSs8&t=8s
+  
+* Endogeneity: practical contribution
   
   + EndoS
   
@@ -141,13 +152,17 @@ class: reverse
 ## Examples
 
 .pull-left[
-- Moderated regression analysis
+- [ModLR](https://www.sciencedirect.com/science/article/pii/S0148296319303728)
 
-- Heteroskedasticity
+- [HeteroskedasticityV3](https://www.tqmp.org/Vignettes/vol16-5/v008/v008.pdf)
 
-- Endogeneity
+- [EndoS](https://www.tqmp.org/RegularArticles/vol16-1/p056/p056.pdf)
 ]
 
-.Articles [
-![endos](/img/endos.png){:height="25%" width="25%"}
+.pull-right[
+- Journal of Business Research
+- The Quantitative Method in Psychology
+]
+
+![endos](img/endos.png){:height="25%" width="25%"}
 
