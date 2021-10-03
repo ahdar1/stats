@@ -173,7 +173,9 @@ y <- x + x**2 + e       # generate y, nonlinearly related to x
 ```
 ---
 
-## Apply MMR model
+## Spurious - demo
+
+### Apply MMR model
 
 Now, using the generated data, let us apply the moderated regression model:
 
