@@ -50,14 +50,6 @@ University of Diponegoro, Indonesia
 
 11 October 2021
 
-
----
-class: reverse
-
-## Slides 
-
-available at: https://ahdar1.github.io/stats_slides_undip/#1
-
 ---
 ## Types of research articles
 
@@ -93,13 +85,12 @@ source: Kumar(2016)
 
 
 ---
-class: reverse
+class: reverse, middle, center
 
 ## Why contributions?
 
-* Increasing rigour
+Your turn... 
 
-* Increasing relevance
 ---
 
 ## Tips
@@ -132,22 +123,70 @@ class: reverse
 knitr::include_graphics("img/chain_gang.png")
 ```
 * Choose `good` journal
-  + ABS list
-  + Open source for impact e.g., TQMP
+  + [Academic Journal Guide (AJG) list](https://www.researchgate.net/publication/352767191_Academic_Journal_Guide_2021_It_was_earlier_ABS_2021_Ranking_list)
+  + Open source for impact e.g., [TQMP](https://www.tqmp.org)
 * Good documentation
   + Source codes
 ---
 class: reverse
+
 ## Personal experiences
 
-* Moderated regression analysis
+* Moderated multiple regression (MMR) model
 \begin{equation}
 Y = \beta_0 + \beta_1 X + \beta_2 Z + \beta XZ + \varepsilon, \varepsilon \sim N(0,1)
 \end{equation}
 
 
-  Information-based theory technique in avoiding *spurious moderation*
-  spurious moderation: e.g, If population linear, estimating equation above will produce a significant $\beta_3$.
+Contribution: Information-based theory technique in avoiding *spurious moderation*
+
+spurious moderation: e.g, If X --> Y is nonlinear in a population, estimating parameters of the MMR above will produce a significant $\beta_3$.
+
+   
+```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="70%", out.width="70%"}
+knitr::include_graphics("img/jbr.png")
+```
+---
+# Spurious - demo
+Putting our demo into a [contex](https://www.sciencedirect.com/science/article/abs/pii/S0148296319304606)
+
+X = Place attachment; Z = Trust toward government program; Y = Pro-environmental behaviour
+
+see: Song, Zening, Ahmad Daryanto and Didier Soopramanien. (2019). Place Attachment, Trust and Mobility:  Three-way Interaction Effect on Urban Residents' Environmental Citizenship Behaviour. Journal of Business Research, 105, 168-177.
+
+```{r, echo= TRUE, warning=FALSE, message=FALSE}
+# Data generation
+set.seed(5)      # set a random seed
+library(MASS)    # to use mvrnorm function
+nobs <- 1000
+
+rxz = 0.1         # set correlation between x and z
+mu=c(0,0)         # set means for x and z
+sigma=matrix(c(1, rxz, rxz,1), 2, 2) # set covariance matrix
+
+population_data=mvrnorm(nobs,mu,sigma) # population data
+x = population_data[,1]     # extract x
+z = population_data[,2]     # extract z
+
+e <- rnorm(nobs, 0, 1)  # generate error term
+y <- x + x**2 + e       # generate y, nonlinearly related to x
+
+```
+---
+
+## Apply MMR model
+
+Now, using the generated data, let us apply the moderated regression model:
+
+```{r, echo= TRUE, warning=FALSE, message=FALSE}
+ xz <- x * z  # create an interaction term
+ fit <- lm(y ~ x + z + x:z)
+ res <- summary(fit)
+ print(res)
+ 
+```
+
+---
 
 * Heteroskedasticity: practical contribution
 
@@ -156,10 +195,22 @@ Y = \beta_0 + \beta_1 X + \beta_2 Z + \beta XZ + \varepsilon, \varepsilon \sim N
   + 22k+ views https://www.youtube.com/watch?v=dJFAkPLrbx4&t=28s
   + 6k+ views https://www.youtube.com/watch?v=uFI3QwBqSs8&t=8s
   
+---
+
+
+class: reverse
+
+## ...
+
 * Endogeneity: practical contribution
+  
+  ```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="65%", out.width="65%"}
+knitr::include_graphics("img/endo_diagram.png")
+```
   
   + EndoS
   ![endos](img/endos.png)
+
 ---
 
 ## Examples
