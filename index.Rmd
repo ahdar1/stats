@@ -46,7 +46,7 @@ Lancaster University
 
 Presented at the Department of Statistics
 
-University of Diponegoro
+University of Diponegoro, Indonesia
 
 11 October 2021
 
@@ -85,7 +85,7 @@ knitr::include_graphics("https://absolutelymaybe.plos.org/wp-content/uploads/sit
 
 ---
 
-## Are we making a contribution?
+## Are we making contributions?
 
 ![review](img/review_process.gif)
 
@@ -110,7 +110,8 @@ Attempt to:
  * replicate previous studies
    + re-derived mathematical formulations
    + replicate past simulations
- * read original papers (first-hand exposure)
+   + https://osf.io (good resources for original data and codes of published papers)
+ * read seminal papers (first-hand exposure)
 
 ### Engagement
  * Stay on the same topic
@@ -122,25 +123,31 @@ Attempt to:
  
 ---
 class: reverse
-# Writing a paper
-
+## Tips..
+### Writing a paper
  * Articulate research contribution(s)
    e.g, We contribute to literature by demonstrating that Markov chain can not be used to lock burglars.
    
-```{r message=FALSE, warning=FALSE, out.height="50%", out.width="30%"}
+```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="50%", out.width="30%"}
 knitr::include_graphics("img/chain_gang.png")
 ```
-   
-   
-
-   source: Landers
+* Choose `good` journal
+  + ABS list
+  + Open source for impact e.g., TQMP
+* Good documentation
+  + Source codes
 ---
 class: reverse
 ## Personal experiences
 
 * Moderated regression analysis
+\begin{equation}
+Y = \beta_0 + \beta_1 X + \beta_2 Z + \beta XZ + \varepsilon, \varepsilon \sim N(0,1)
+\end{equation}
 
-  information-based theory technique in avoiding spurious moderation
+
+  Information-based theory technique in avoiding *spurious moderation*
+  spurious moderation: e.g, If population linear, estimating equation above will produce a significant $\beta_3$.
 
 * Heteroskedasticity: practical contribution
 
@@ -171,6 +178,7 @@ class: reverse
 ]
 
 ---
+class: center, middle
 ## Questions?
 
 
