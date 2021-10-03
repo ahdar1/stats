@@ -54,12 +54,11 @@ University of Diponegoro
 ---
 class: reverse
 
-.left-column[
-# Webinar
-]
+## Slides 
 
-.right-column[
+available at: https://ahdar1.github.io/stats_slides_undip/#1
 
+---
 ## Types of research articles
 
 
@@ -71,15 +70,6 @@ class: reverse
 
 * Practical contribution: software, macros
   
-  
-
-.footnote[
-
-----
-]
-]
-
-
 ---
 ## What is contribution?
 
@@ -97,10 +87,6 @@ knitr::include_graphics("https://absolutelymaybe.plos.org/wp-content/uploads/sit
 
 source: Kumar(2016)
 
----
-## Slides 
-
-available at: https://ahdar1.github.io/stats_slides_undip/#1
 
 ---
 class: reverse
@@ -164,5 +150,5 @@ class: reverse
 - The Quantitative Method in Psychology
 ]
 
-![endos](img/endos.png){:height="25%" width="25%"}
+![endos](img/endos.png)
 
