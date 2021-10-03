@@ -121,7 +121,7 @@ class: reverse
 # Writing a paper
 
  * Articulate research contribution(s)
-   e.g, We contribute to literature by demonstrating that Markov chain can not use to lock buglars.
+   e.g, We contribute to literature by demonstrating that Markov chain can not be used to lock burglars.
    
 ```{r message=FALSE, warning=FALSE, out.height="50%", out.width="30%"}
 knitr::include_graphics("img/chain_gang.png")
