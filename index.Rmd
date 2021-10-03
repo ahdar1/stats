@@ -130,9 +130,9 @@ knitr::include_graphics("img/chain_gang.png")
 ---
 class: reverse
 
-## Personal experiences
+## Personal experience
 
-* Moderated multiple regression (MMR) model
+1. Moderated multiple regression (MMR) model
 \begin{equation}
 Y = \beta_0 + \beta_1 X + \beta_2 Z + \beta XZ + \varepsilon, \varepsilon \sim N(0,1)
 \end{equation}
@@ -148,7 +148,7 @@ knitr::include_graphics("img/jbr.png")
 ```
 ---
 # Spurious - demo
-Putting our demo into a [contex](https://www.sciencedirect.com/science/article/abs/pii/S0148296319304606)
+Putting our demo into a [context](https://www.sciencedirect.com/science/article/abs/pii/S0148296319304606)
 
 X = Place attachment; Z = Trust toward government program; Y = Pro-environmental behaviour
 
@@ -179,17 +179,21 @@ y <- x + x**2 + e       # generate y, nonlinearly related to x
 Now, using the generated data, let us apply the moderated regression model:
 
 ```{r, echo= TRUE, warning=FALSE, message=FALSE}
- xz <- x * z  # create an interaction term
+
+# Applying MMR model
+xz <- x * z  # create an interaction term
  fit <- lm(y ~ x + z + x:z)
- res <- summary(fit)
- print(res)
- 
+ summary(fit)
+
 ```
 
 ---
+## Personal experience...
 
-* Heteroskedasticity: practical contribution
+2. Heteroskedasticity: practical contribution
 
+  Homoskedasticity assumption in linear regression = constant variance at every value of $x$
+  
   + HeteroskedasticityV3 
   
   + 22k+ views https://www.youtube.com/watch?v=dJFAkPLrbx4&t=28s
@@ -200,9 +204,11 @@ Now, using the generated data, let us apply the moderated regression model:
 
 class: reverse
 
-## ...
+## Personal experience...
 
-* Endogeneity: practical contribution
+3. Endogeneity: practical contribution
+  
+  One of the common cause = important variable is missing.
   
   ```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="65%", out.width="65%"}
 knitr::include_graphics("img/endo_diagram.png")
@@ -211,22 +217,6 @@ knitr::include_graphics("img/endo_diagram.png")
   + EndoS
   ![endos](img/endos.png)
 
----
-
-## Examples
-
-.pull-left[
-- [ModLR](https://www.sciencedirect.com/science/article/pii/S0148296319303728)
-
-- [HeteroskedasticityV3](https://www.tqmp.org/Vignettes/vol16-5/v008/v008.pdf)
-
-- [EndoS](https://www.tqmp.org/RegularArticles/vol16-1/p056/p056.pdf)
-]
-
-.pull-right[
-- Journal of Business Research
-- The Quantitative Method in Psychology
-]
 
 ---
 class: center, middle

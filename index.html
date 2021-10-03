@@ -126,7 +126,7 @@ spurious moderation: e.g, If X --&gt; Y is nonlinear in a population, estimating
 &lt;img src="img/jbr.png" width="70%" height="70%" style="display: block; margin: auto;" /&gt;
 ---
 # Spurious - demo
-Putting our demo into a [contex](https://www.sciencedirect.com/science/article/abs/pii/S0148296319304606)
+Putting our demo into a [context](https://www.sciencedirect.com/science/article/abs/pii/S0148296319304606)
 
 X = Place attachment; Z = Trust toward government program; Y = Pro-environmental behaviour
 
@@ -148,7 +148,7 @@ x = population_data[,1]     # extract x
 z = population_data[,2]     # extract z
 
 e &lt;- rnorm(nobs, 0, 1)  # generate error term
-y &lt;- x + x**2 + e       # generate y
+y &lt;- x + x**2 + e       # generate y, nonlinearly related to x
 ```
 ---
 
@@ -158,10 +158,10 @@ Now, using the generated data, let us apply the moderated regression model:
 
 
 ```r
- xz &lt;- x * z  # create an interaction term
+# Applying MMR model
+xz &lt;- x * z  # create an interaction term
  fit &lt;- lm(y ~ x + z + x:z)
- res &lt;- summary(fit)
- print(res)
+ summary(fit)
 ```
 
 ```
@@ -190,7 +190,8 @@ Now, using the generated data, let us apply the moderated regression model:
 ---
 
 * Heteroskedasticity: practical contribution
-
+  Homoskedasticity = constant variance at every value of `\(x\)`
+  
   + HeteroskedasticityV3 
   
   + 22k+ views https://www.youtube.com/watch?v=dJFAkPLrbx4&amp;t=28s
@@ -210,22 +211,6 @@ class: reverse
   + EndoS
   ![endos](img/endos.png)
 
----
-
-## Examples
-
-.pull-left[
-- [ModLR](https://www.sciencedirect.com/science/article/pii/S0148296319303728)
-
-- [HeteroskedasticityV3](https://www.tqmp.org/Vignettes/vol16-5/v008/v008.pdf)
-
-- [EndoS](https://www.tqmp.org/RegularArticles/vol16-1/p056/p056.pdf)
-]
-
-.pull-right[
-- Journal of Business Research
-- The Quantitative Method in Psychology
-]
 
 ---
 class: center, middle
