@@ -110,7 +110,7 @@ Attempt to:
  * replicate previous studies
    + re-derived mathematical formulations
    + replicate past simulations
- * Read original papers (first-hand exposure)
+ * read original papers (first-hand exposure)
 
 ### Engagement
  * Stay on the same topic
