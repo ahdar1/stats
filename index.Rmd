@@ -133,7 +133,7 @@ class: reverse
 * Endogeneity: practical contribution
   
   + EndoS
-  
+  ![endos](img/endos.png)
 ---
 ## Examples
 
@@ -150,5 +150,5 @@ class: reverse
 - The Quantitative Method in Psychology
 ]
 
-![endos](img/endos.png)
+
 
