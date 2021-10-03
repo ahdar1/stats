@@ -61,77 +61,93 @@ class: reverse
 
 .right-column[
 
-## Structure of an email
+## Types of research articles
 
 
-* Greeting 
+* Conceptual: theory, methodology 
 
-* Body
+* Review: narrative, meta-analysis, bibliometric
 
-* Ending
-
+* Empirical: survey, experiment, econometric modelling
+  
+  
 
 .footnote[
 
 ----
-* Thanks to Dr. Meindra Sabri for organizing the event]
+]
 ]
 
 
-
 ---
-## Why literacy
+## What is contribution?
 
-* Avoiding misinterpretation
 
-* Signalling professionalism
-
-* Cross-cultural context
+```{r, out.width = "200px", echo=FALSE, fig.align='right', include=TRUE}
+knitr::include_graphics("https://absolutelymaybe.plos.org/wp-content/uploads/sites/8/2020/05/Eureka.jpg")
+```
 
 
 ---
-class: reverse
 
-## Common mistakes
+## Are we making a contribution?
 
-  ** Forget greetings
-  
-      *** e.g., 'Dear'
-      
-      *** Non-formal in the first email, eg. Dear Meindra (in some context, it is OK)
-  
-  ** Forget closing
-  
-     *** e.g Best wishes, Best regards, Kind regards, Warm regards
-  
-  *** Forget mentioning your name as a sender
-  
-  Best wishes,
-  
-  *** Giving a command instead of polite request
-   
-     
-  
+![review](img/review_process.gif)
+
+source: Kumar(2016)
 
 ---
 class: reverse
 
-## Contoh
+## Why contributions?
 
-* Mohon tema materi untuk kegiatan ini.
+* Increasing rigour
 
-  Versi English (Direct translation): 
+* Increasing relevance
+---
+
+## Tips
+
+## Learning
+
+Attempt to: 
+ * replicate previous studies
+   + re-derived mathematical formulations
+   + replicate past simulations
+ * Read original papers (first-hand exposure)
+
+## Engagement
+ * Stay on the same topic
+ * Build research vocabularies
+ * Follow the conversation
+ * Try to publish
+ * Leave your footprint: move to another domain after publising 2-3 articles
+
+---
+class: reverse
+## Personal experiences
+
+* Moderated regression analysis
+
+* Heteroskedasticity
+
+  + HeteroskedasticityV3 
+
+* Endogeneity
   
-   * Please send the theme of the event
-  
-  Quiz: Your version???
-  
+  + EndoS
   
 ---
-## Online resources
+## Examples
 
-* https://writingcenter.unc.edu/tips-and-tools/effective-e-mail-communication/
+.pull-left[
+- Moderated regression analysis
 
-* https://www.mindtools.com/CommSkll/EmailCommunication.htm
+- Heteroskedasticity
 
-* https://edu.gcfglobal.org/en/business-communication/how-to-write-an-effective-business-email/1/
+- Endogeneity
+]
+
+.Articles [
+![endos](/img/endos.png){:height="25%" width="25%"}
+
