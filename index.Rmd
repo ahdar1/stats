@@ -132,11 +132,10 @@ class: reverse
 
 ## Personal experience
 
-1. Moderated multiple regression (MMR) model
+A. Moderated multiple regression (MMR) model
 \begin{equation}
 Y = \beta_0 + \beta_1 X + \beta_2 Z + \beta XZ + \varepsilon, \varepsilon \sim N(0,1)
 \end{equation}
-
 
 Contribution: Information-based theory technique in avoiding *spurious moderation*
 
@@ -190,7 +189,7 @@ xz <- x * z  # create an interaction term
 ---
 ## Personal experience...
 
-2. Heteroskedasticity: practical contribution
+B. Heteroskedasticity problem in multiple linear regression
 
   Homoskedasticity assumption in linear regression = constant variance at every value of $x$
   
@@ -206,7 +205,9 @@ class: reverse
 
 ## Personal experience...
 
-3. Endogeneity: practical contribution
+C. Endogeneity problem in multiple linear regression
+
+  Endogeneity = X is correlated with error term.
   
   One of the common cause = important variable is missing.
   
