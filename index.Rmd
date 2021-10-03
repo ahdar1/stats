@@ -130,7 +130,7 @@ knitr::include_graphics("img/chain_gang.png")
 ---
 class: reverse
 
-## Personal experience
+## Illustrations
 
 A. Moderated multiple regression (MMR) model
 \begin{equation}
@@ -188,7 +188,7 @@ xz <- x * z  # create an interaction term
 ```
 
 ---
-## Personal experience...
+## Illustrations...
 
 B. Heteroskedasticity problem in multiple linear regression
 
@@ -208,7 +208,7 @@ knitr::include_graphics("img/heteros.png")
 
 class: reverse
 
-## Personal experience...
+## Illustrations...
 
 C. Endogeneity problem in multiple linear regression
 
@@ -222,6 +222,17 @@ knitr::include_graphics("img/endo_diagram.png")
   
   + EndoS
   ![endos](img/endos.png)
+---
+class: reverse
+
+## Reflection
+
+* Don't afraid to think big
+
+* Be confident
+
+* Try to publish
+
 
 
 ---
