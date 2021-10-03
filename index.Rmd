@@ -100,7 +100,7 @@ class: reverse
 
 ## Tips
 
-## Learning
+### Learning
 
 Attempt to: 
  * replicate previous studies
@@ -108,20 +108,35 @@ Attempt to:
    + replicate past simulations
  * Read original papers (first-hand exposure)
 
-## Engagement
+### Engagement
  * Stay on the same topic
  * Build research vocabularies
  * Follow the conversation
  * Try to publish
  * Leave your footprint: move to another domain after publising 2-3 articles
  * Thinking of comeback
+ 
+---
+class: reverse
+# Writing a paper
+
+ * Articulate research contribution(s)
+   e.g, We contribute to literature by demonstrating that Markov chain can not use to lock buglars.
+   
+```{r message=FALSE, warning=FALSE, out.height="50%", out.width="30%"}
+knitr::include_graphics("img/chain_gang.png")
+```
+   
+   
+
+   source: Landers
 ---
 class: reverse
 ## Personal experiences
 
 * Moderated regression analysis
 
-  Contribution: information-based theory technique in avoiding spurious moderation
+  information-based theory technique in avoiding spurious moderation
 
 * Heteroskedasticity: practical contribution
 
@@ -135,6 +150,7 @@ class: reverse
   + EndoS
   ![endos](img/endos.png)
 ---
+
 ## Examples
 
 .pull-left[
@@ -150,5 +166,7 @@ class: reverse
 - The Quantitative Method in Psychology
 ]
 
+---
+## Questions?
 
 
