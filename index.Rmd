@@ -1,0 +1,137 @@
+---
+title: "Email Communication Literacy"
+subtitle: "Webinar UKM Saisuak AJO"
+author: "Ahdar"
+institute: "UKM Saisuak"
+date: "2021"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css:
+      - default
+      - rladies
+      - rladies-fonts
+      - css/rladies-mod.css
+    seal: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 4:3
+---
+
+```{r setup, include = FALSE}
+# loading libraries
+library(tidyverse)
+library(palmerpenguins)
+library(fontawesome)
+
+# preset code chunk options
+knitr::opts_chunk$set(dpi = 300,            # ensures high resolution images
+                      echo = FALSE,         # FALSE: code chunks don't show
+                      warning = FALSE,      # FALSE: suppresses warning messages
+                      error = FALSE)        # FALSE: Suppresses error messages
+```
+
+class: title-slide, center, middle, inverse
+background-image: url(img/sky.jpg)
+background-position: bottom
+background-size: cover
+
+# `r rmarkdown::metadata$title`
+
+Ahmad Daryanto
+
+UKM Saisuak Webinar 2021
+
+???
+This slide uses:
+- a custom `title-slide` class that removes the slide number from the title slide
+- a background image
+  - background-image: url(img/PurpleSky.jpg)
+  - background-position: bottom
+  - background-size: cover
+
+---
+class: reverse
+
+.left-column[
+# Webinar
+]
+
+.right-column[
+
+## Structure of an email
+
+
+* Greeting 
+
+* Body
+
+* Ending
+
+
+.footnote[
+
+----
+* Thanks to Dr. Meindra Sabri for organizing the event]
+]
+
+
+
+---
+## Why literacy
+
+* Avoiding misinterpretation
+
+* Signalling professionalism
+
+* Cross-cultural context
+
+
+---
+class: reverse
+
+## Common mistakes
+
+  ** Forget greetings
+  
+      *** e.g., 'Dear'
+      
+      *** Non-formal in the first email, eg. Dear Meindra (in some context, it is OK)
+  
+  ** Forget closing
+  
+     *** e.g Best wishes, Best regards, Kind regards, Warm regards
+  
+  *** Forget mentioning your name as a sender
+  
+  Best wishes,
+  
+  *** Giving a command instead of polite request
+   
+     
+  
+
+---
+class: reverse
+
+## Contoh
+
+* Mohon tema materi untuk kegiatan ini.
+
+  Versi English (Direct translation): 
+  
+   * Please send the theme of the event
+  
+  Quiz: Your version???
+  
+  
+---
+## Online resources
+
+* https://writingcenter.unc.edu/tips-and-tools/effective-e-mail-communication/
+
+* https://www.mindtools.com/CommSkll/EmailCommunication.htm
+
+* https://edu.gcfglobal.org/en/business-communication/how-to-write-an-effective-business-email/1/
