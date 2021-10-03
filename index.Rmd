@@ -1,8 +1,8 @@
 ---
-title: "Email Communication Literacy"
-subtitle: "Webinar UKM Saisuak AJO"
-author: "Ahdar"
-institute: "UKM Saisuak"
+title: "Making (methodological) Research Contributions"
+subtitle: "Presented at the Department of Statistika UNDIP"
+author: "Ahmad Daryanto"
+institute: "Lancaster University"
 date: "2021"
 output:
   xaringan::moon_reader:
@@ -42,13 +42,13 @@ background-size: cover
 
 Ahmad Daryanto
 
-UKM Saisuak Webinar 2021
+Lancaster University, 11 October 2021
 
 ???
 This slide uses:
 - a custom `title-slide` class that removes the slide number from the title slide
 - a background image
-  - background-image: url(img/PurpleSky.jpg)
+  - background-image: url(img/businessman.jpg)
   - background-position: bottom
   - background-size: cover
 
