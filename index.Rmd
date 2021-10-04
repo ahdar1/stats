@@ -56,7 +56,7 @@ University of Diponegoro, Indonesia
 
 * Conceptual: theory, methodology 
 
-* Review: narrative (qual), meta-analysis, bibliometric
+* Review: narrative (qual), meta-analysis
 
 * Empirical: survey, experiment, econometric modelling
 
