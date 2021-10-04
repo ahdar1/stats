@@ -65,10 +65,20 @@ University of Diponegoro, Indonesia
 ---
 ## What is contribution?
 
-* **E**xtend theories
-* **C**larify theories
-* **A**pply theories into a new setting
+I will relate to my field - marketing
 
+* **Discover** new knowledge
+
+  * Good example: Concept of Market orientation (Kohli and Jaworski, 1990)
+  
+* **E**xtend existing knowledge
+
+  * Extend the meaning of a construct, e.g., multidimensional constructs
+  
+  * Discovering boundary conditions, e.g., X --> Y depends on another variable.
+  
+* **A**pply knowledge into a new setting
+  * Why new setting?
 
 ```{r, out.width = "200px", echo=FALSE, fig.align='right', include=TRUE}
 knitr::include_graphics("https://absolutelymaybe.plos.org/wp-content/uploads/sites/8/2020/05/Eureka.jpg")
