@@ -61,6 +61,11 @@ University of Diponegoro, Indonesia
 
 * Methodological (but not a review): methodological procedures, codes
 
+
+```{r message=FALSE, warning=FALSE, fig.align='right' ,out.height="40%", out.width="40%", fig.cap="Art: Hilda Bastian"}
+knitr::include_graphics("img/abstract.jpg")
+```
+
 ---
 ## Be Mindful
 
