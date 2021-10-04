@@ -238,7 +238,7 @@ class: reverse
 
 ## Reflection
 
-* Single-author is good, accept the reality that:
+* Single-author is rewarding, accept the reality that:
   - more hard work
   - high commitment
   - takes time
