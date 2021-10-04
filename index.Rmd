@@ -224,6 +224,9 @@ Now, using the generated data, let us apply the moderated regression model:
 
 B. Heteroskedasticity problem in multiple linear regression
 
+[Click this to see the paper](https://www.tqmp.org/Vignettes/vol16-5/v008/v008.pdf)
+
+
   Homoskedasticity assumption in linear regression = constant variance at every value of $x$
   
   ```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="60%", out.width="60%"}
