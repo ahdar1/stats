@@ -79,7 +79,7 @@ University of Diponegoro, Indonesia
   * Improving past results, e.g., X --> Y suffers from Endogeneity problems (and you find an instrument).
   
 * **A**pply knowledge into a new setting
-  * Why new setting?
+  * Why new settings?
 
 ```{r, out.width = "200px", echo=FALSE, fig.align='right', include=TRUE}
 knitr::include_graphics("https://absolutelymaybe.plos.org/wp-content/uploads/sites/8/2020/05/Eureka.jpg")
