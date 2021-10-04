@@ -78,6 +78,8 @@ knitr::include_graphics("https://absolutelymaybe.plos.org/wp-content/uploads/sit
 ---
 
 ## Are we making contributions?
+* Academic
+* Managerial/practical/policy
 
 ![review](img/review_process.gif)
 
