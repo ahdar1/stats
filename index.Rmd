@@ -54,13 +54,13 @@ University of Diponegoro, Indonesia
 ## Types of research articles
 
 
-* Conceptual: theory, methodology 
+* Conceptual: theory, methodology (a review)
 
 * Review: narrative (qual), meta-analysis
 
 * Empirical: survey, experiment, econometric modelling
 
-* Practical contribution: software, macros
+* Methodological (but not a review): methodological procedures, codes
   
 ---
 ## What is contribution?
