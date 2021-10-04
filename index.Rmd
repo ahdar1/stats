@@ -65,17 +65,17 @@ University of Diponegoro, Indonesia
 ---
 ## What is contribution?
 
-I will relate to my field - marketing
-
 * **Discover** new knowledge
 
   * Good example: Concept of Market orientation (Kohli and Jaworski, 1990)
   
 * **E**xtend existing knowledge
 
-  * Extend the meaning of a construct, e.g., multidimensional constructs
+  * Extending the meaning of a construct, e.g., multidimensional constructs
   
   * Discovering boundary conditions, e.g., X --> Y depends on another variable.
+  
+  * Explaining the process, e.g., X --> M --> Y
   
 * **A**pply knowledge into a new setting
   * Why new setting?
