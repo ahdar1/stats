@@ -57,10 +57,24 @@ University of Diponegoro, Indonesia
 
 * Review: narrative (qual), meta-analysis
 
-* Empirical: survey, experiment, econometric modelling
+* Empirical (original research): survey, experiment, econometric modelling
 
 * Methodological (but not a review): methodological procedures, codes
-  
+
+---
+## Be Mindful
+
+Different journals are strongly associated with different types of articles.
+
+* Marketing Science --> Econometric modelling with metrics data not survey
+
+* Journal of Consumer Psychology ---> Experiment
+
+* Journal of Business Research accommodates nearly types of articles
+
+```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="60%", out.width="60%", fig.cap="Art: Henck van Bilsen"}
+knitr::include_graphics("img/mindfulness.jpg")
+```
 ---
 ## What is contribution?
 
