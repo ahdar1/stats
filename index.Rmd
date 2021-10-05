@@ -298,6 +298,20 @@ A. Stay with Door no 1
 B. Switch to Door no 2
 
 ---
+# About the Quiz
+
+* It is called a Monty Hall Problem
+
+* The text was adapted from the original problem defined by Marilyn vos Savant (women with the highest IQ at that time) in her ‘Ask Marilyn’ column in Parade magazine in 1990.
+
+* Still amused people up to this day
+
+
+
+
+
+
+---
 class: center, middle
 ## Questions?
 
