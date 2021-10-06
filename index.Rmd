@@ -81,7 +81,7 @@ Different journals are strongly associated with different types of articles.
 knitr::include_graphics("img/mindfulness.jpg")
 ```
 ---
-## What is contribution?
+## Routes to contribution
 ### **Discover** new knowledge
 
   * Conceptualization and measurement of Market orientation (Kohli and Jaworski, 1990)
