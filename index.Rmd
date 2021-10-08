@@ -279,7 +279,7 @@ class: reverse
   - high commitment
   - takes time
 
-* Personal website, e.g., Google site, github pages
+* Personal website, e.g., Google sites, github pages
   - Insemination
 
 * Publish in a journal
