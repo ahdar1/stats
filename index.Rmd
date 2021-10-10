@@ -51,6 +51,18 @@ University of Diponegoro, Indonesia
 11 October 2021
 
 ---
+## The important of statistical thinking
+
+Intellectual tools:
+
+* Logic
+* Critical thinking
+* Probability
+* Correlation
+* Causation
+
+(Steven Pinker, 'Rationality', 2021)
+---
 ## Types of research articles
 
 * Conceptual: theory, methodology (a review)
