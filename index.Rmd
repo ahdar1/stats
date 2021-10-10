@@ -68,6 +68,9 @@ A. Stay with Door no 1
 
 B. Switch to Door no 2
 
+```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="30%", out.width="30%", fig.cap="Art: Hilda Bastian"}
+knitr::include_graphics("img/doors_monthy.png")
+```
 
 ---
 ## The important of statistical thinking
