@@ -212,6 +212,7 @@ see: Song, Zening, Ahmad Daryanto and Didier Soopramanien. (2019). Place Attachm
 ```r
 # Data generation
 set.seed(5)      # set a random seed
+library(haven)
 library(MASS)    # to use mvrnorm function
 nobs &lt;- 1000
 
@@ -225,6 +226,11 @@ z = population_data[,2]     # extract z
 
 e &lt;- rnorm(nobs, 0, 1)  # generate error term
 y &lt;- x + x**2 + e       # generate y, nonlinearly related to x
+
+# export data to SPSS
+
+dat &lt;- as_data_frame(cbind(x,z, y))
+write_sav(dat,"/Users/ahmaddaryanto/Documents/Temp/demo.sav")
 ```
 ---
 
