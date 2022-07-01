@@ -51,40 +51,6 @@ University of Diponegoro, Indonesia
 11 October 2021
 
 ---
-
-[Click this link: https://lancasteruni.eu.qualtrics.com/jfe/form/SV_4M9c69OeyGzsTb0](https://lancasteruni.eu.qualtrics.com/jfe/form/SV_4M9c69OeyGzsTb0)
-
-# Quiz
-
-Imagine that you are on a game show. The show host presents you with a choice of three doors: Behind one door is a **car** and behind the other doors are goats. Of course, you want the car -- if you win, you can keep it.
-
-Suppose that you pick a door, say door No. 1.  Next, the host, who knows what is behind the doors, opens another door, say door No. 3. Door No 3 has a goat. 
-
-Then the host asks you, ‘Do you want to switch to No. 2 or stay with your current choice?
-
-Your answer (please choose A or B): 
-
-A. Stay with Door no 1
-
-B. Switch to Door no 2
-
-```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="30%", out.width="30%", fig.cap="Art: Hilda Bastian"}
-knitr::include_graphics("img/doors_monthy.png")
-```
-
----
-## The important of statistical thinking
-
-Intellectual tools:
-
-* Logic
-* Critical thinking
-* Probability
-* Correlation
-* Causation
-
-(Steven Pinker, 'Rationality', 2021)
----
 ## Types of research articles
 
 * Conceptual: theory, methodology (a review)
@@ -115,27 +81,13 @@ Different journals are strongly associated with different types of articles.
 knitr::include_graphics("img/mindfulness.jpg")
 ```
 ---
-
-## Are we making contributions?
-
-* Academic
-* Managerial/policy
-* Pedagogic
-
-![review](img/review_process.gif)
-
-source: Kumar(2016), Journal of Marketing.
-
-
-
----
 ## Routes to contribution
 ### **Discover** new knowledge
 
   * Conceptualization and measurement of Market orientation (Kohli and Jaworski, 1990)
   * Common-method bias in a survey research (see McKenzie and Podsakof, 2012)
   
-### **Extend** existing knowledge
+### Extend existing knowledge
 
   + Extending the meaning of a construct, e.g., multidimensional constructs
   
@@ -150,15 +102,13 @@ knitr::include_graphics("https://absolutelymaybe.plos.org/wp-content/uploads/sit
 
 ---
 
-## **Apply** knowledge into a new setting
+## **A**pplying knowledge into a new setting
 
   * Seems easy to do but positioning contribution beyond mere application is challenging
   
    + Why new settings?
    
-   + Repetition can be boring 
-   
-    + Aplikasi theori ABC: studi kasus pemasaran di perusahaan X. 
+    + Aplikasi theori ABC: studi kasus pembuatan gudeg di kota X. 
     
     + Pemakaian rantai Markov untuk memprediksi kedatangan pengunjung di mall X kota Y.
     
@@ -168,6 +118,17 @@ knitr::include_graphics("https://absolutelymaybe.plos.org/wp-content/uploads/sit
 ```{r message=FALSE, warning=FALSE, fig.align='center' ,out.height="50%", out.width="30%"}
 knitr::include_graphics("img/rain.png")
 ```
+---
+## Are we making contributions?
+
+* Academic
+* Managerial/policy
+* Pedagogic
+
+![review](img/review_process.gif)
+
+source: Kumar(2016), Journal of Marketing.
+
 ---
 
 ## Tips
@@ -186,8 +147,8 @@ Attempt to:
  * Build research vocabularies
  * Follow the conversation
  * Try to publish
- * Leave your footprint: move to another domain after publishing 2-3 articles
- * Thinking of coming back
+ * Leave your footprint: move to another domain after publising 2-3 articles
+ * Thinking of comeback
  
 ---
 class: reverse
@@ -232,7 +193,6 @@ see: Song, Zening, Ahmad Daryanto and Didier Soopramanien. (2019). Place Attachm
 ```{r, echo= TRUE, warning=FALSE, message=FALSE}
 # Data generation
 set.seed(5)      # set a random seed
-library(haven)
 library(MASS)    # to use mvrnorm function
 nobs <- 1000
 
@@ -247,10 +207,6 @@ z = population_data[,2]     # extract z
 e <- rnorm(nobs, 0, 1)  # generate error term
 y <- x + x**2 + e       # generate y, nonlinearly related to x
 
-# export data to SPSS
-
-dat <- as_data_frame(cbind(x,z, y))
-write_sav(dat,"/Users/ahmaddaryanto/Documents/Temp/demo.sav")
 ```
 ---
 
@@ -259,10 +215,14 @@ write_sav(dat,"/Users/ahmaddaryanto/Documents/Temp/demo.sav")
 ### Apply MMR model
 
 Now, using the generated data, let us apply the moderated regression model:
+
 ```{r, echo= TRUE, warning=FALSE, message=FALSE}
+
 # Applying MMR model
+
  fit <- lm(y ~ x + z + x:z)
  summary(fit)
+
 ```
 
 ---
@@ -323,15 +283,14 @@ class: reverse
   - Insemination
 
 * Publish in a journal
-  - benefit of submission: getting a feedback
-  - don't undermine your work 
+  - easy to undermine our own work (must be avoided)
   - never thought [this](https://www.youtube.com/watch?v=14aJJd8n-bg&t=34s) is appreciated 
 
 
 ---
 # Quiz
 
-Imagine that you are on a game show. The show host presents you with a choice of three doors: Behind one door is a **car** and behind the other doors are goats. Of course, you want the car -- if you win, you can keep it.
+Imagine that you are on a game show. The host of the show presents you with a choice of three doors: Behind one door is a **car** and behind the other doors are goats. Of course, you want the car -- if you win, you can keep it.
 
 Suppose that you pick a door, say door No. 1.  Next, the host, who knows what is behind the doors, opens another door, say door No. 3. Door No 3 has a goat. 
 
